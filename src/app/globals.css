@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F5EFE6;
+  --color-coral: #F47C7C;
+  --color-sage: #8FAF9A;
+  --color-navy: #1F2A44;
+  --color-charcoal: #333333;
+}
+
+:root {
+  --bg-cream: #F5EFE6;
+  --accent-coral: #F47C7C;
+  --accent-sage: #8FAF9A;
+  --text-navy: #1F2A44;
+  --text-body: #333333;
+}
+
+body {
+  background-color: #F5EFE6;
+  color: #333333;
+  margin: 0;
+  min-height: 100vh;
+}
